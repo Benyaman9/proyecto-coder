@@ -1,125 +1,188 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Ivess Salta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <title>ivess</title>
 </head>
 
 <body>
-    <header>
-
-        <!-- Logo ivess clickeable al inicio -->
-        <a href="">
-            <img src="./img/logo ivess.jfif" alt="logo-ivess">
-        </a>
-
-
-
-
-
-        
-        <nav>
-            <ul>
-
-                <li><a href="./pages/productos.html">Productos</a>
-
-                </li>
-                <li><a href="./pages/por-que-elegirnos.html">Por que elegirnos</a></li>
-                <li><a href="./pages/nuestro-servicio.html">nuestro servicio</a></li>
-                <li><a href="./pages/contacto.html">contacto</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg bg-body-tertiary border-bottom fw-bold">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img class="w-50" src="./img/logo ivess.jfif" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./nuestro servicio.html">Nuestro servicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./por que elegirnos.html">Por que elegirnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <hr>
 
     <main>
-        <div class="portada">
 
+        <section class="portada-index container">
+            <div class="row">
+                <div class="col-lg-6 order-sm-last order-lg-last">
 
-        </div>
-        <section class="portada-index">
-            <div>
-                <h1>Ivess salta</h1>
-                <p>Somos el agua</p>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h2>conoce la familia ivess</h2>
-            <article>
-                <h3 class="color-h3">practicidad</h3>
-                <p>elegi dia y hora evita cargar bolsas desde el supermercado</p>
+                    <div class="img-portada">
+                        <img src="./img/portada-agua.jpg" alt="imagen agua" class="img-fluid ">
+                    </div>
+                </div>
 
-            </article>
-            <article>
-                <h3 class="color-h3">confianza</h3>
-                <p>garantia de cumplimiento y servicio de tu repartidor</p>
-            </article>
-            <article>
-                <h3 class="color-h3">conveniencia</h3>
-                <p>Menor precio por litro y sin costo de envio</p>
-            </article>
-        </section>
-        <section>
-            <article>Completa el alta ahora y empeza a formar parte de la familia Ivess
-                <!-- boton para dar de alta -->
-                <a href="./pages/contacto.html">
-                    <h2>Quiero darme de alta</h2>
-                </a>
-            </article>
-        </section>
-        <section>
-            <div class="repartidor">
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-lg-center ">
+                    <h1 class="text-center display-1 fw-bold">Compra desde tu <span class="c-secundario">CASA</span>
+                    </h1>
+                    <p class="text-center">Ivess es calidad, contacta desde tu casa a nuestro call center o llena el
+                        formulario para sumarte a la familia Ivess. Ofrecemos el mejor servicio a domicilio y brindamos
+                        nuestra atencion con responsabilidad</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="" class="btn btn-lg btn-primario">Quiero ser cliente</a>
+                    </div>
+
+                </div>
 
             </div>
-            <form action="">
-                <h2>Sumate a la familia Ivess</h2>
-                <div>
-                    <label for="Nombre-cliente">Nombre</label>
-                    <input type="text" id="Nombre-cliente">
-                </div>
-                <div>
-                    <label for="celular-cliente">Telefono celular</label>
-                    <input type="cell" id="Celular-cliente">
-                    <label for="email-correo">Email</label>
-                    <input type="email" id="email-correo">
-                </div>
-                <input type="submit" value="Enviar">
-            </form>
+
         </section>
+
+        <section class="clientes container my-4">
+            <h2 class="display-5 fw-bold mb-5">
+                Nuestros clientes
+                <br>
+                <span class="c-secundario display-2">Y nuestro servicio</span>
+            </h2>
+
+            <div class="d-flex justify-content-center">
+
+                <div id="carouselindex" class="carousel slide w-lg-50">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselindex" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselindex" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselindex" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/imagen-carousel1.jpg" class="d-block w-100" alt="repartidor">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/imagen-carousel2.jpg" class="d-block w-100" alt="agua">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/imagen-carousel3.jpg" class="d-block w-100" alt="cliente-comprando">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselindex"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselindex"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FORMULARIO PARA LA PAGINA DE CONTACTO LUEGO MOVER DE LUGAR -->
+
+        <section class="contacto-index conteiner">
+            <div class="row regular-shadow p-2">
+
+                <div class="text-center col-lg-8">
+                    <h2 class="fw-bold c-secundario display-3">Contactate con nosotros</h2>
+                    <p>Completa este formulario para darte de alta como cliente ivess</p>
+
+                    <form action="hacerse cliente" class="d-lg-flex align-items-center gap-1">
+                        <input type="text" class="form-control" placeholder="nombre y apellido">
+                        <input type="email" class="form-control my-3" placeholder="email-correo">
+                        <input type="cell" class="form-control" placeholder="telefono-celular">
+                        <input type="submit" class="btn btn-primario my-3 " value="Enviar">
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="d-none d-lg-block">
+                <img src="./img/envio gratis.jfif" alt="">
+            </div>
+
+        </section>
+
+
     </main>
 
-    <footer>
-        <nav>
-            <ul>
+    <footer class="bg-secundario text-white container-fluid p-3">
+        <div class="container">
+            <div class="row border-bottom p-1 d-lg-flex justify-content-center align-items-center">
 
-                <li><a href="./pages/productos.html">Productos</a>
+                <div class="footer-info d-flex flex-column align-items-center col-lg-3">
+                    <img src="./img/logo ivess.jfif" alt="logo ivess">
+                    <p> una mejor calidad de vida</p>
+                    <p>ivess@gmail.com</p>
 
-                </li>
-                <li><a href="./pages/por-que-elegirnos.html">Por que elegirnos</a></li>
-                <li><a href="./pages/nuestro-servicio.html">nuestro servicio</a></li>
-                <li><a href="./pages/contacto.html">contacto</a></li>
-            </ul>
-        </nav>
-        <!-- Logos cierre pagina -->
-        <div>
-            <a href="">
-                <img src="./img/logo ivess.jfif" alt="logo-ivess">
-            </a>
+                </div>
 
+
+                <div class="footer-redes my-3 d-flex flex-column align-items-center col-lg-3">
+                    <h3 class="c-primario">Redes sociales</h3>
+                    <div class="d-flex gap-3">
+                        <i class="bi bi-instagram fs-1"></i>
+                        <i class="bi bi-facebook fs-1"></i>
+                        <i class="bi bi-twitter fs-1"></i>
+
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-        <h2>contactanos 0800-555-444</h2>
-        <img src="./img/logo face.png" alt="logo-facebook">
-        <img src="./img/logo insta.jfif" alt="logo-instagram">
-        <img src="./img/logo wpp.jfif" alt="logo-whatsapp">
 
+        <div class="p-5 ">
+            <p class="m-0 d-flex justify-content-center">+amor -sodio</p>
+        </div>
 
-
-        <p>+ Amor - Sodio</p>
     </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
