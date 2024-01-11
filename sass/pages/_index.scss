@@ -1,0 +1,15 @@
+.navbar-nav{
+    font-size: 25px;
+    margin-right: 0;
+}
+.navbar-nav:hover{
+    color:$c-primario;
+    text-decoration: underline;
+}
+
+.img-portada{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

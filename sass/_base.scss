@@ -1,0 +1,115 @@
+$c-primario:cornflowerblue;
+$c-secundario:limegreen;
+$ff-open-sans: "open sans", sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.c-primario{
+    color: $c-primario;
+}
+.bg-primario{
+    background-color: $c-primario;
+}
+.c-secundario{
+    color: $c-secundario;
+}
+.bg-secundario{
+    background-color:$c-secundario;
+    text-decoration: none;
+}
+
+
+.imagen-prod{
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    object-fit: cover;
+}
+.img-portada{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-portada{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    object-fit: cover;
+    max-width: 400px;
+}
+
+.imagen-prod{
+    width: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.imagen-prod > img{
+    
+    object-fit: cover;
+    display: block;
+}
+
+
+.servicio-img{
+    display: none;
+}
+
+
+
+.servicio-img{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.text-center{
+    margin-left: 1rem;
+}
+
+
+////maps
+
+//maps posible maps de css para redes en el footer
+
+// $redes:(
+// twitter: cornflowerblue, 
+// facebook: blue,
+// instagram: violet
+// );
+
+
+// .icon-twitter{
+//     background-color: map-get($redes, "twitter" );
+//     color:  map-get($redes, "twitter" );
+// }
+
+
+// .icon-facebook{
+//     background-color: map-get($redes, "facebokk" );
+//     color:  map-get($redes, "facebook" );
+// }
+
+
+// .icon-instagram{
+//     background-color: map-get($redes, "instagram" );
+//     color:  map-get($redes, "instagram" );
+// }

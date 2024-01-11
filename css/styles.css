@@ -74,6 +74,10 @@
   margin-left: 2rem;
 }
 
+.text-center {
+  margin-left: 1rem;
+}
+
 .btn-primario {
   background-color: cornflowerblue;
   color: white;

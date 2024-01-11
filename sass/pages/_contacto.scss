@@ -1,0 +1,12 @@
+.img-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    object-fit: cover;
+    max-width: 400px;
+}
+.contenedor-contacto{
+    display: grid;
+    grid-template-rows: 3,1fr;
+}
