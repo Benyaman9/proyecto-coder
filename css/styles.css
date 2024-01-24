@@ -89,6 +89,7 @@
   border: limegreen;
   color: limegreen;
   text-decoration: underline;
+  box-shadow: 10px 10px 8px;
 }
 
 .btn-secundario:hover {
@@ -96,6 +97,7 @@
   border: limegreen;
   color: limegreen;
   text-decoration: underline;
+  box-shadow: 10px 10px 8px;
 }
 
 #carouselindex img {
@@ -115,7 +117,7 @@
   margin-right: 0;
 }
 
-.navbar-nav:hover {
+.nav__item:hover {
   color: cornflowerblue;
   text-decoration: underline;
 }
@@ -161,6 +163,7 @@
 .titulox {
   margin: 10px;
   margin: bottom 60px;
+  text-shadow: 10px 10px 8px;
 }
 
 .galeria-productos {
@@ -237,6 +240,7 @@
 .contenedor-contacto {
   display: grid;
   grid-template-rows: 3, 1fr;
+  text-shadow: 10px 10px 20px black;
 }
 
 /*# sourceMappingURL=styles.css.map */

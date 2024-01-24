@@ -2,9 +2,14 @@
     font-size: 25px;
     margin-right: 0;
 }
-.navbar-nav:hover{
-    color:$c-primario;
+// navbar-nav:hover{
+//     color:$c-primario;
+//     text-decoration: underline;
+// }
+.nav__item:hover{
+    color: $c-primario;
     text-decoration: underline;
+
 }
 
 .img-portada{
